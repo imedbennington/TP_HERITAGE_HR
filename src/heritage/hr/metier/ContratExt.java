@@ -2,7 +2,7 @@ package heritage.hr.metier;
 
 import heritage.hr.enumeration.TypeContrat;
 
-public class ContratExt extends Personnne{
+public class ContratExt extends Personne {
 
     //attributes
 

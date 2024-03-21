@@ -20,7 +20,7 @@ public class Administratif extends Personnel{
     }
 
     @Override
-    void afficher() {
+    public void afficher() {
         super.afficher();
         System.out.println("Poste "+poste);
     }

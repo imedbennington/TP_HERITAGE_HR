@@ -9,8 +9,7 @@ public class Enseignat extends Personnel{
 
     //constructor
 
-    public Enseignat(Grade grade) {
-        this.grade = grade;
+    public Enseignat() {
     }
 
     public Enseignat(String nom, String prenom, int age, Contrat contrat, Grade grade) {
@@ -29,7 +28,7 @@ public class Enseignat extends Personnel{
     }
 
     @Override
-    void afficher() {
+    public void afficher() {
         super.afficher();
         System.out.println(" Grade"+grade);
     }

@@ -1,15 +1,15 @@
 package heritage.hr.metier;
 
-public abstract class Personnne {
+public abstract class Personne {
     //attributes
     private String nom, prenom;
     private int age;
     //constructor
 
-    public Personnne() {
+    public Personne() {
     }
 
-    public Personnne(String nom, String prenom, int age) {
+    public Personne(String nom, String prenom, int age) {
         this.nom = nom;
         this.prenom = prenom;
         this.age = age;
@@ -42,7 +42,7 @@ public abstract class Personnne {
         this.age = age;
     }
 
-    void afficher(){
+    public void afficher(){
         System.out.println("Nom "+nom+ " prenom"+ prenom+ " age"+age);
     }
 }

@@ -2,7 +2,7 @@ package heritage.hr.metier;
 
 import heritage.hr.enumeration.Contrat;
 
-public abstract class Personnel extends Personnne{
+public abstract class Personnel extends Personne {
     //attributes
 
     private Contrat contrat;
@@ -29,7 +29,7 @@ public abstract class Personnel extends Personnne{
     }
 
     @Override
-    void afficher() {
+    public void afficher() {
         super.afficher();
         System.out.println("Contat "+contrat);
     }
