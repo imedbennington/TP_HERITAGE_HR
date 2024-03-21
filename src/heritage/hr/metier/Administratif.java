@@ -1,5 +1,6 @@
 package heritage.hr.metier;
 
+import heritage.hr.enumeration.Contrat;
 import heritage.hr.enumeration.Poste;
 
 public class Administratif extends Personnel{
@@ -9,6 +10,11 @@ public class Administratif extends Personnel{
     //constructors
 
     public Administratif() {
+    }
+
+    public Administratif(String name, String familyName, Contrat contrat, Poste poste) {
+        super();
+        this.poste=poste;
     }
 
     public Poste getPoste() {

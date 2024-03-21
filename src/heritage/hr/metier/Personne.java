@@ -43,6 +43,6 @@ public abstract class Personne {
     }
 
     public void afficher(){
-        System.out.println("Nom "+nom+ " prenom"+ prenom+ " age"+age);
+        System.out.println("Nom ;"+nom+ " prenom: "+ prenom+ " age: "+age);
     }
 }
